@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.wrapper{
+    width: 650px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+}
+
+.content .quotes-area{
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-area .quote{
+    font-size: 23px;
+    text-align: center;
+    word-break:normal;
+}
+
+.quotes-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quotes-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px;
+
+}
+
+.content .author{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+
+.btn{
+    
+    margin-left: 245px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: aqua;
+    
+}
+    
