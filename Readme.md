@@ -7,3 +7,5 @@
 - HTML
 - CSS
 - JAVASCRIPT
+
+LIVE LINK[https://quotesgenerator-app.netlify.app/]
